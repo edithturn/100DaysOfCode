@@ -1,3 +1,5 @@
+# Day 001 -  Beginner - Working with Variables in Python to Manage Data
+
 # Priting
 print("Day 001 - Python Print Function")
 print("The function is declared like this:")

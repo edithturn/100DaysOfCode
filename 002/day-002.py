@@ -1,4 +1,4 @@
-# Data Tyypes
+# Data Tyypes adn How Manipulate Strings
 
 # Strings
 # Priting the second element in an array of the word "Hello"
@@ -42,3 +42,27 @@ print(type(a)) # <class 'int'>
 print(type(b)) # <class 'str'>
 
 
+# Mathematical Operations
+print (3 * 3 + 3 / 3 - 3)  # 7.0
+print (3 * (3 + 3) / 3 - 3) # 3.0
+
+# Number manipulation and F String
+print( 8 / 3) # This print a number in float with all the decimal numbers
+print(round(8 / 3)) # Round the number just a digit
+print(round(8 / 3, 2)) # round the number with two decimal places
+
+# If we want just a integer
+print(8 // 3) # Round the number to a one digit "2"
+
+# Incremental operation
+result = 4 / 2
+result /= 2
+print(result) # It is printing 1.0
+
+# Convert all what I want to print in String
+
+score = 0
+my_height = 1.5
+isWinnning = True
+#f-String
+print(f"your score is {score}, and you height is {my_height}")
