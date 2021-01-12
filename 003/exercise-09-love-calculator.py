@@ -23,14 +23,11 @@ for j in range(len(love)):
     count_love += both.count(love[j])
 
 # Concatenating both numbers in a single digit
-score = str(count_true) + str(count_love)
+score = int(str(count_true) + str(count_love))
 
-# Changing data type  from string to integer
-_score = int(score)
-
-if _score < 10 or _score > 90:
+if (score < 10) or (score > 90):
     print(f"Your score is {score}, you go together like coke and mentos.")
-elif _score > 40 and _score < 50:
+elif (score > 40) and (score < 50):
     print(f"Your score is {score}, you are alright together.")
 else:
     print(f"Your score is {score}.")
