@@ -40,7 +40,7 @@ if cursor == "left":
   print("You are into a Castell")
   cursor = input('First Floor (type: FF) or Second Floor (type: SF) \n').lower()
   if cursor == "sf":
-    cursor = input("Which door?").lower()
+    cursor = input("Which door: one, two or three?").lower()
     if cursor == "one":
       print("Burned by fire. Game Over!")  
     elif cursor == "two":
