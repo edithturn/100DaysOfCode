@@ -1,23 +1,20 @@
 import random
 import my_module
 
-i = 100
-j = 20e7
+i = 1
+j = 50
 
 a = random.randrange(i, j)
 try:
-    b = random.randrange(j, i)
+    b = random.randrange(i, j)
 except ValueError:
     print('ValueError on randrange() since start > stop')
 
-c = random.randint(100, 200)
-try:
-    d = random.randint(100, 200)
-except ValueError:
-    print('ValueError on randit() since 200 > 100')
 
 print('i =', i, 'and j = ', j)
 print('randrange() generated number: ' , a)
-print('randint() generated number:', c)
+print('randint() generated number:', b)
 
-print(my_module.pi)
+print(my_module.pi*a*b)
+random_float = random.random() * 5
+print(random_float)
