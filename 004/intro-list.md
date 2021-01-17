@@ -6,7 +6,6 @@ List into anothe lists
 names = ["Maria", "Juan", "Pool", "Hugo"]
 professions = ["Nurse", "Engineer", "Doctor"]
 
-
-persons = [names, profesions]
+persons = [names, professions]
 print(persons)
 ```
