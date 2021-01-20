@@ -1,6 +1,7 @@
 
 
-![exercise](../img/reeborg1.png) 
+![exercise](../img/reeborg1.png)
+
 
 
 ```python

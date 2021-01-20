@@ -5,26 +5,6 @@ def my_function():
 print("This will run")
 ```
 
-**Good indentation**
-```python
-def my_function():
-  print("This will run")
-```
-
-**Good indentation**
-```python
-def my_function():
-    print("This will run")
-```
-
-**Good indentation**
-```python
-def my_function():
-  print("This will run")
-print("Bye")
-```
-
-**Wrong indentation**
 ```python
 def my_function():
     #This is my function
@@ -32,14 +12,6 @@ def my_function():
     my_function()
 ```
 
-**Good indentation**
-```python
-def my_function():
-    #This is my function
-    print("This will run!")
-my_function()
-```
-**Wrong indentation**
 ```python
 def my_function():
     a = 3
@@ -48,7 +20,6 @@ def my_function():
 my_function()
 ```
 
-**Wrong indentation**
 ```python
 def my_function():
 a = 3
@@ -57,7 +28,6 @@ a = 3
 my_function()
 ```
 
-**Wrong indentation**
 ```python
 def my_function():
     a = 3
@@ -67,6 +37,29 @@ def my_function():
 ```
 
 **Good indentation**
+```python
+def my_function():
+  print("This will run")
+```
+
+```python
+def my_function():
+    print("This will run")
+```
+
+```python
+def my_function():
+  print("This will run")
+print("Bye")
+```
+
+```python
+def my_function():
+    #This is my function
+    print("This will run!")
+my_function()
+```
+
 ```python
 def my_function():
     a = 3
