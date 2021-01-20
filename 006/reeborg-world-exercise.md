@@ -2,7 +2,7 @@
 ![exercise](../img/reeborg.png) 
 
 
-**With for **
+**With "for"**
 
 ```python
 def turn_right():
@@ -27,7 +27,7 @@ for i in range(1, 7):
 ```
 
 
-**With While**
+**With "While"**
 
 ```python
 def turn_right():
