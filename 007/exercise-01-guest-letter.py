@@ -11,11 +11,16 @@ word_list = ["aardvark", "baboon", "camel"]
 
 
 chosen_word = word_list[random.randrange(0, (len(word_list)))]
+#chosen_word = random.choice(word_list)
 print(chosen_word)
 
 guess = input("Type a letter:").lower()
-print(guess)
+new_list = []
 
-for letter in chosen_word:
-    if guess == letter:
-        print(guess)
+for i in range(0, len(chosen_word)):
+    new_list.append("_")
+
+for index in range(0, len(chosen_word)):
+    if guess == chosen_word[index]:
+        new_list[index] = guess
+print(new_list)
