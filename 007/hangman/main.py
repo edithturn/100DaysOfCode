@@ -1,6 +1,5 @@
+import os
 import random
-#Step 1 
-
 import hangman_art
 import hangman_words
 
@@ -29,6 +28,7 @@ for i in range(0, len(chosen_word)):
 
 while "_" in  new_list:
     guess = input("Type a letter:").lower()
+    os.system('clear')
     attempt = 0
     for index in range(0, len(chosen_word)):
         if guess == chosen_word[index]:
