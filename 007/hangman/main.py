@@ -13,10 +13,10 @@ import hangman_words
 
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
-print(hangman_art.logo[0])
+print(hangman_art.logo)
 chosen_word = hangman_words.word_list[random.randrange(0, (len(hangman_words.word_list)))]
 #chosen_word = random.choice(word_list)
-print(chosen_word)
+print("The word is ==> " + chosen_word +'\n')
 
 new_list = []
 current_points = 0
