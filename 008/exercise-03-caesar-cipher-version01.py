@@ -12,7 +12,7 @@ def encrypt(text,shift):
     
     while index_text in range(len(text)):
         index = 0
-        while index in range(len(alphabet)):
+        while index in range(len(  alphabet)):
             if text[index_text] == alphabet[index]:
                 print(tmp_alphabeth[index])
                 break
