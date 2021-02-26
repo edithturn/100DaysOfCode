@@ -11,3 +11,8 @@ last_name2 = "PUCLLA"
 
 print(format_name(f_name = name1, l_name = last_name2))
 print(format_name(f_name = name2, l_name = last_name2))
+
+output = len(format_name(f_name = name2, l_name = last_name2))
+print(output)
+
+print(format_name(input("What is your first name? "), input("What is your last name? ")))
