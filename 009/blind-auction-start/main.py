@@ -21,7 +21,7 @@ def finding_max(auction_dic):
     print(f"The winner is {winner} with a bid of ${highest_bid}")
 
 while not option:
-    name = input("Name:")
+    name = input("Name: ")
     amount = int(input("What is your bid? \n"))
     fill_dic(name, amount)
     selecction = input("Do yo have more? [yes] or [no] \n")
