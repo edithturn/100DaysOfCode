@@ -60,7 +60,7 @@ def distribuite_cards():
 #Look up the sum() function to help you do this.
 
 def calculate_score(cards):
-    
+    """Take the cards and calculate the total sum of the cards"""
     if sum(cards) == 21 and len(cards) == 2:
         return 0
     if 11 in cards and sum(cards) > 21:

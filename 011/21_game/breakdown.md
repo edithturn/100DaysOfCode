@@ -1,3 +1,0 @@
-# breakdown of program requirements
-
-* 
