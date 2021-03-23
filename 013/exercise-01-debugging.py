@@ -31,18 +31,21 @@
 #   print("You are a Gen Z.")
 
 # Fix the Errors
-"""To use age as a number, we should convert into a int"""
-age = int(input("How old are you? "))
-if age > 18:
-    print(f"You can drive at age {age}.")
+# """To use age as a number, we should convert into a int"""
+# age = int(input("How old are you? "))
+# if age > 18:
+#     print(f"You can drive at age {age}.")
 
-# #Print is Your Friend
-# pages = 0
-# word_per_page = 0
-# pages = int(input("Number of pages: "))
-# word_per_page == int(input("Number of words per page: "))
-# total_words = pages * word_per_page
-# print(total_words)
+#Print is Your Friend
+pages = 0
+word_per_page = 0
+
+pages = int(input("Number of pages: "))
+word_per_page = int(input("Number of words per page: "))
+
+total_words = pages * word_per_page
+
+print(f"The product of {pages} * {word_per_page} == {total_words}")
 
 # #Use a Debugger
 # def mutate(a_list):
