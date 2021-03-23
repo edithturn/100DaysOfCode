@@ -9,6 +9,8 @@ logo = """
  |_|\_\__,_|\__|___/\__,_|_| |_|_|  \_____\___/ \__,_|\___|
                                                  
  """
+EASY_LEVEL_TURNS = 5
+HARD_LEVEL_TURNS = 10
 print("Welcome to the Number Guessing Game!")
 print("I am thinking a number betweek 1 and 100")
 
@@ -16,22 +18,17 @@ print("I am thinking a number betweek 1 and 100")
 num = random.randint(1, 100)
 
 def Game():
-    keep_asking_attemps = True
-    attemps = 0
-    while keep_asking_attemps:
-        difficulty = input(f"Choose a difficulty. Type [ easy ] or [ hard ] : ")
-        if difficulty.lower() == "easy":
-            attemps = 5
-            keep_asking_attemps = False
-        elif difficulty.lower() == "hard":
-            attemps = 10
-            keep_asking_attemps = False
-    print(f"You have {attemps} attempts remaining to guess the number")
-    return attemps
+    """Calculate the number of attemps"""
+    difficulty = input(f"Choose a difficulty. Type [ easy ] or [ hard ] : ")
+    if difficulty.lower() == "easy":
+        return EASY_LEVEL_TURNS            
+    elif difficulty.lower() == "hard":
+        return HARD_LEVEL_TURNS
 
 def Guessing():
     keep_guessing = True
     attemp = Game()
+    
     print(f"Number {num}")
        
     while keep_guessing:
@@ -55,5 +52,4 @@ def Guessing():
             print("You lost your attemps, now is {attemp}!")
             return
         print(f"you have {attemp} attemps to guess the number")
-
 Guessing()
