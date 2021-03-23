@@ -23,17 +23,18 @@
 
 
 # Play Computer
-"""To take the values 1980 and 1994 we should include then in the interval """
-year = int(input("What's your year of birth? "))
-if year >= 1980 and year <= 1994:
-  print("You are a millenial.")
-elif year > 1994:
-  print("You are a Gen Z.")
+# """To take the values 1980 and 1994 we should include then in the interval """
+# year = int(input("What's your year of birth? "))
+# if year >= 1980 and year <= 1994:
+#   print("You are a millenial.")
+# elif year >  1994:
+#   print("You are a Gen Z.")
 
-# # Fix the Errors
-# age = input("How old are you?")
-# if age > 18:
-# print("You can drive at age {age}.")
+# Fix the Errors
+"""To use age as a number, we should convert into a int"""
+age = int(input("How old are you? "))
+if age > 18:
+    print(f"You can drive at age {age}.")
 
 # #Print is Your Friend
 # pages = 0
