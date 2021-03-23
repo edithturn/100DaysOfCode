@@ -12,22 +12,23 @@
 
 # Reproduce the Bug 
 
-"""The function randint(start, stop), 
-takes two arguments, start = 1 and stop = 6, 
-if we want to print dice_imgs[6] this will give us list index out of range in an error """
-from random import randint
-dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
-dice_num = randint(0, 5)
-print(dice_num)
-print(dice_imgs[dice_num])
+# """The function randint(start, stop), 
+# takes two arguments, start = 1 and stop = 6, 
+# if we want to print dice_imgs[6] this will give us list index out of range in an error """
+# from random import randint
+# dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+# dice_num = randint(0, 5)
+# print(dice_num)
+# print(dice_imgs[dice_num])
 
 
-# # Play Computer
-# year = int(input("What's your year of birth?"))
-# if year > 1980 and year < 1994:
-#   print("You are a millenial.")
-# elif year > 1994:
-#   print("You are a Gen Z.")
+# Play Computer
+"""To take the values 1980 and 1994 we should include then in the interval """
+year = int(input("What's your year of birth? "))
+if year >= 1980 and year <= 1994:
+  print("You are a millenial.")
+elif year > 1994:
+  print("You are a Gen Z.")
 
 # # Fix the Errors
 # age = input("How old are you?")
