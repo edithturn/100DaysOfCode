@@ -36,7 +36,19 @@ def game():
         choose = input("Who has more followers Type 'A' or 'B' : ")
         print(f"Choose {choose}")
          
-        is_correct = checkAnswer(choose, optionA['follower_count'], optionB['follower_count'])
+        #is_correct = checkAnswer(choose, optionA['follower_count'], optionB['follower_count'])
+
+        if optionA['follower_count'] > optionB['follower_count']:
+            if choose.lower() == "a":
+                is_correct = True
+            else:
+                is_correct = False
+        else:
+            if choose.lower() == "b":
+                is_correct = True
+            else:
+                is_correct = False
+
         #os.system('clear')
         print(art.logo)
         if is_correct:
