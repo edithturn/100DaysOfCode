@@ -7,12 +7,6 @@ import random
 def formatAccount(account):
     return f"{account['name']}, a {account['description']}, from {account['country']}, {account['follower_count']}"
 
-def checkAnswer(choose, a_follower, b_follower):
-    if a_follower > b_follower:
-        return choose.lower() == "a"
-    else:
-        return choose.lower() == "b"
-
 def game():
     print(art.logo)
     score = 0
