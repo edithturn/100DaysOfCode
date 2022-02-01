@@ -99,3 +99,5 @@ while is_on:
         check_resources_sufficient()
     else:
         ask_user_preferences(choose)
+
+# TODO: 1. Use DataClass to optimize
