@@ -1,0 +1,6 @@
+basic1-subprocess.py
+basic-subprocess.py
+libraries
+output.txt
+__pycache__
+s.txt

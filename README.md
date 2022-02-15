@@ -14,3 +14,8 @@ git commit -am "make it better"
 git push heroku master
 heroku open
 ```
+
+# Classes and Objects
+The name of the class have to have the first letter capitalize: "PascalCase"
+camelCase: just the first word is lowe case
+skae_case: all words separate with underscore in lower case.
