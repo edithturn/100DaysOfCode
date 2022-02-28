@@ -5,15 +5,16 @@ from numpy import square
 import heroes
 
 edi = Turtle()
-edi.shape("turtle")
+edi.shape("arrow")
 edi.color("blue")
 
-square_sides = 4
-for i in range(square_sides):
-    edi.right(90)
-    edi.forward(100)
+
+for i in range(80):
+    edi.pendown()
+    edi.forward(5)
+    edi.penup()
+    edi.forward(5)
 
 screen = Screen()
 screen.exitonclick()
 
-print(heroes.gen())
